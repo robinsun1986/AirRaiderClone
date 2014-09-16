@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MainViewController.h
 //  airraider
 //
 //  Created by wilson on 8/22/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface MainViewController : UIViewController
 
 @end

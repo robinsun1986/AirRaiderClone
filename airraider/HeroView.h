@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  HeroView.h
 //  airraider
 //
 //  Created by wilson on 8/22/14.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface HeroView : UIImageView
 
-@property (strong, nonatomic) UIWindow *window;
+- (id)initWithImages:(NSArray *)images;
 
 @end
